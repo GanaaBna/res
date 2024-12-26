@@ -1,0 +1,27 @@
+.item{
+    width: 300px;
+height: 100px;
+background-color: blueviolet;
+}
+.box{
+    width: 300px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    background-color: blue;
+    justify-content: center;
+    color: azure;
+}
+@media screen and (max-width:420px){
+    .container{
+        flex-direction: column;
+        background-color: green;
+    }
+    .item2 {
+        background-color: red;
+    }
+    .Gantogtokh{
+        background-color: aqua;
+    }
+}
